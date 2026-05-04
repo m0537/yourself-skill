@@ -1,32 +1,23 @@
-<div align="center">
-
 # 自己.skill
-
-> *"与其蒸馏别人，不如蒸馏自己。欢迎加入数字永生！"*
+*"与其蒸馏别人，不如蒸馏自己。欢迎加入数字永生！"*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
 
-<br>
-
-同事跑了，你蒸馏同事。前任分了，你蒸馏前任。<br>
-但有没有想过——**最该被蒸馏的，其实是你自己？**<br>
-毕竟你才是那个24小时在线、跟你对话最多的人。<br>
+同事跑了，你蒸馏同事。前任分了，你蒸馏前任。
+但有没有想过——**最该被蒸馏的，其实是你自己？**
+毕竟你才是那个24小时在线、跟你对话最多的人。
 
 **与其蒸馏别人，不如蒸馏自己。欢迎加入数字永生！**
 
-<br>
-
-提供你的聊天记录、日记、照片，加上你对自己的描述<br>
-我们将你解构为一套可运行的结构：<br>
-**Part A — Self Memory（自我记忆）+ Part B — Persona（人格模型）**<br>
+提供你的聊天记录、日记、照片，加上你对自己的描述
+我们将你解构为一套可运行的结构：
+**Part A — Self Memory（自我记忆）+ Part B — Persona（人格模型）**
 生成一个能用你口头禅思考、用你逻辑回话的数字副本
 
 [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [English](README_EN.md)
-
-</div>
 
 ---
 
@@ -159,9 +150,9 @@ pip install -r requirements.txt
 
 ### 进化机制
 
-* **追加记忆** → 找到更多聊天记录/日记/照片 → 自动分析增量 → merge 进对应部分
-* **对话纠正** → 说「我不会这样说」→ 写入 Correction 层，立即生效
-* **版本管理** → 每次更新自动存档，支持回滚
+ **追加记忆** → 找到更多聊天记录/日记/照片 → 自动分析增量 → merge 进对应部分
+ **对话纠正** → 说「我不会这样说」→ 写入 Correction 层，立即生效
+ **版本管理** → 每次更新自动存档，支持回滚
 
 ---
 
